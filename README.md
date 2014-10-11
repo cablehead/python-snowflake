@@ -12,4 +12,8 @@ code.
     1132805164143611904
     >>> s.next()
     1132805168782512128
+
+    # convenience to convert a snowflake to a unix timestamp
+    >>> snowflake.snowflake_to_timestamp(1132805168782512128)
+    1413056012
 ```
